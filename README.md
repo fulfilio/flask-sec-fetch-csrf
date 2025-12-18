@@ -211,7 +211,7 @@ def handle_csrf_error(error):
 
 ## Browser Support
 
-The `Sec-Fetch-Site` header is supported in all modern browsers:
+The `Sec-Fetch-Site` header is [supported in all modern browsers](https://caniuse.com/mdn-http_headers_sec-fetch-site):
 
 | Browser | Version | Release Date |
 |---------|---------|--------------|
