@@ -307,6 +307,10 @@ csrf = SecFetchCSRF(app)
 4. Remove `{{ csrf_token() }}` from templates
 5. Remove any JavaScript that handles CSRF tokens in AJAX requests
 
+## Examples
+
+See the [examples directory](examples/README.md) for a demo application that shows CSRF protection in action, including how to simulate cross-site attacks.
+
 ## References
 
 - [Filippo Valsorda: "CSRF"](https://words.filippo.io/csrf/) — The algorithm this extension implements
