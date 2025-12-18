@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "CSRF protection for Flask using Sec-Fetch-Site header"
 readme = "README.md"
 license = "BSD-3-Clause"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
     { name = "Sharoon Thomas", email = "sharoon.thomas@fulfil.io" }
 ]
@@ -17,11 +17,11 @@ classifiers = [
     "License :: OSI Approved :: BSD License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware",
     "Topic :: Security",
 ]
@@ -51,7 +51,7 @@ testpaths = ["tests"]
 addopts = "-ra -q"
 
 [tool.ruff]
-target-version = "py39"
+target-version = "py310"
 line-length = 88
 
 [tool.ruff.lint]
