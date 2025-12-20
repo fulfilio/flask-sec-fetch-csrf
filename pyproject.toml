@@ -1,6 +1,6 @@
 [project]
 name = "flask-sec-fetch-csrf"
-version = "0.1.1"
+version = "0.2.0"
 description = "CSRF protection for Flask using Sec-Fetch-Site header"
 readme = "README.md"
 license = "BSD-3-Clause"
