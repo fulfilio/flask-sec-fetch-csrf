@@ -11,7 +11,7 @@ https://words.filippo.io/csrf/
 
 from urllib.parse import urlparse
 
-from flask import Blueprint, current_app, g, request
+from flask import Blueprint, current_app, request
 
 from .exceptions import CSRFError
 
@@ -107,9 +107,6 @@ class SecFetchCSRF:
 
     def _is_exempt(self):
         """Check if the current request is exempt from CSRF validation."""
-        if getattr(g, "_csrf_exempt", False):
-            return True
-
         if request.blueprint in self._exempt_blueprints:
             return True
 
